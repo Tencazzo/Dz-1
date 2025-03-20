@@ -18,6 +18,14 @@ namespace Dz_1
         public Gallery()
         {
             InitializeComponent();
+            this.AutoScaleMode = AutoScaleMode.Font;
+            PictureBox.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            ImageListBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            TextBox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            LoadButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            SaveButton.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+
+            PictureBox.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
         private void Form1_Load(object sender, EventArgs e)

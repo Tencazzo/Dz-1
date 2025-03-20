@@ -70,16 +70,17 @@
             // 
             // PictureBox
             // 
-            this.PictureBox.Location = new System.Drawing.Point(327, 138);
+            this.PictureBox.Location = new System.Drawing.Point(327, 170);
             this.PictureBox.Name = "PictureBox";
             this.PictureBox.Size = new System.Drawing.Size(442, 268);
+            this.PictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox.TabIndex = 3;
             this.PictureBox.TabStop = false;
             this.PictureBox.Click += new System.EventHandler(this.PictureBox_Click);
             // 
             // TextBox
             // 
-            this.TextBox.Location = new System.Drawing.Point(327, 412);
+            this.TextBox.Location = new System.Drawing.Point(327, 134);
             this.TextBox.Name = "TextBox";
             this.TextBox.Size = new System.Drawing.Size(442, 26);
             this.TextBox.TabIndex = 4;
@@ -89,7 +90,7 @@
             // 
             this.OpenFileDialog.FileName = "openFileDialog1";
             // 
-            // Form1
+            // Gallery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,7 +100,7 @@
             this.Controls.Add(this.ImageListBox);
             this.Controls.Add(this.LoadButton);
             this.Controls.Add(this.SaveButton);
-            this.Name = "Form1";
+            this.Name = "Gallery";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox)).EndInit();
